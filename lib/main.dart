@@ -20,7 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.grey[900],
         primaryColorLight: Color(0xFFFBE0E6),
-        accentColor: Color(0xFF1B1F32),
+        colorScheme:
+            ColorScheme.fromSwatch().copyWith(secondary: Color(0xFF1B1F32)),
       ),
       home: MyHomePage(),
     );
